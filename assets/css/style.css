@@ -6,7 +6,8 @@ body {background-image: url("../images/dark_embroidery.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;}
 
-#MainBox{height: 450px;}
+#MainBox{overflow: auto;
+	margin-bottom: 50px;}
 	
 #UpperSection{background-color: #ffffff;
 	width: 960px;
