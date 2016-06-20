@@ -20,10 +20,23 @@
 	<div id="MainBox">
 	
 	<section id="MainSection">
+		<h2 class="Title Title-1">Contact<h2>
+		<form name="ContactForm" method="post" id="ContactForm" action="contact-form-handler.php">
+			<p class="ContactInfo">Name:</p>
+			<input type="text" name="name" id="name" />
+			<Br>
+			<p class="ContactInfo">E-mail:</p>
+			<input type="text" name="email" id="email" />
+			<Br>
+			<p class="ContactInfo">Message:</p>
+			<textarea name="message" id="message" cols="70" rows="5"></textarea>
+			<Br>
+			<input class="Submit" type="submit" value="Submit" />
+		</form>
 	</section>
 	
 	<section id="SideSection">
-		<h2>Connect with Me</h2>
+		<h2 class="Title">Connect with Me</h2>
 		<a href="https://github.com/ScribeDK/" target="_blank">
 			<img class="PictureLinks" width="50" height="50" alt="GitHub logo" src="assets/images/github.png" />
 		</a>
