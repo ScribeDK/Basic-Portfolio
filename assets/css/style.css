@@ -62,8 +62,8 @@ body {background-image: url("../images/dark_embroidery.png");
 
 .ContactInfo{color: #777777;
 	font-size: 18px;
-	padding: 0px;
-	margin: 0px;}
+	margin-bottom: 5px;
+	margin-left: 10px;}
 
 .Links{float: right;
 	color: #777777;
@@ -72,8 +72,31 @@ body {background-image: url("../images/dark_embroidery.png");
 	padding-top: 20px;
 	text-decoration: none;}
 	
+.TextSection{font-family:'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	margin: 10px;
+	font-size: 28px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 250px;
+	margin-top: 170px;
+	position: absolute;
+	z-index: 2;}
+
+.TextSection-R{margin-left: 350px;}
+	
 .PictureLinks{float: left;
 	padding: 15px;}
+	
+.PictureSection{overflow: auto;
+	padding-bottom: 50px;}
+
+.PicturePortfolio{float:left;
+	position: relative;
+	margin: 10px;
+	z-index: 1;}
+	
+.PicturePortfolio-R{float:right;}
 	
 .Title{color: #4aaaa5;
 	text-align: center;
