@@ -64,6 +64,8 @@ body {background-image: url("../images/dark_embroidery.png");
 	font-size: 18px;
 	margin-bottom: 5px;
 	margin-left: 10px;}
+	
+.InputBox{width: 560px;}
 
 .Links{float: right;
 	color: #777777;
@@ -78,12 +80,12 @@ body {background-image: url("../images/dark_embroidery.png");
 	font-size: 28px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	width: 250px;
+	width: 275px;
 	margin-top: 170px;
 	position: absolute;
 	z-index: 2;}
 
-.TextSection-R{margin-left: 350px;}
+.TextSection-R{margin-left: 325px;}
 	
 .PictureLinks{float: left;
 	padding: 15px;}
