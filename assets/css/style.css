@@ -34,9 +34,11 @@ body {background-image: url("../images/dark_embroidery.png");
 	border: solid #cccccc;}
 
 #SubmitBtn{font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 28px;
+	font-size: 20px;
 	margin-left: 10px;
 	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #4aaaa5;
 	color: #ffffff;}
 	  
