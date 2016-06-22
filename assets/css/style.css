@@ -8,6 +8,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	height: 100%;}
 
 #MainBox{overflow: auto;
+	min-height: 500px;
 	margin-bottom: 50px;}
 	
 #UpperSection{background-color: #ffffff;
@@ -35,7 +36,7 @@ body {background-image: url("../images/dark_embroidery.png");
 
 #SubmitBtn{font-family:'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
-	margin-left: 10px;
+	margin: 10px;
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -43,27 +44,29 @@ body {background-image: url("../images/dark_embroidery.png");
 	color: #ffffff;}
 	  
 #MyName {font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 28px;
+	font-size: 32px;
 	margin-right: 590px;
 	margin-left: 40px;
 	margin-top: 0px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 20px;}
+	padding: 20px;
+	padding-bottom: 21px;}
 	
 #TealLine{background-color:#4aaaa5;
 	height: 6px;}
 
 #CopyRight{color: #ffffff;
 	font-size: 12px;
-	padding-left: 365px;
-	padding-top: 10px;
+	margin-left: 365px;
+	margin-top: 25px;
 	float: left;}
 	
 #PictureAbout{float: left;}
 
 .ContactInfo{color: #777777;
 	font-size: 18px;
+	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 10px;}
 	
@@ -72,6 +75,7 @@ body {background-image: url("../images/dark_embroidery.png");
 .Links{float: right;
 	color: #777777;
 	font-size: 18px;
+	margin-top: 5px;
 	padding-right: 20px;
 	padding-top: 20px;
 	text-decoration: none;}
@@ -93,7 +97,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	padding: 15px;}
 	
 .PictureSection{overflow: auto;
-	padding-bottom: 50px;}
+	margin-bottom: 5px;}
 
 .PicturePortfolio{float:left;
 	position: relative;
@@ -103,9 +107,11 @@ body {background-image: url("../images/dark_embroidery.png");
 .PicturePortfolio-R{float:right;}
 	
 .Title{color: #4aaaa5;
+	font-size: 30px;
 	text-align: center;
 	border-bottom: solid #cccccc;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10px;}
+	margin: 10px;}
+	
 .Title-1{text-align: left;}
