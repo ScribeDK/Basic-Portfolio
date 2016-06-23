@@ -62,7 +62,8 @@ body {background-image: url("../images/dark_embroidery.png");
 	margin-top: 25px;
 	float: left;}
 	
-#PictureAbout{float: left;}
+#PictureAbout{float: left;
+	margin: 10px;}
 
 .ContactInfo{color: #777777;
 	font-size: 18px;
@@ -79,7 +80,11 @@ body {background-image: url("../images/dark_embroidery.png");
 	padding-right: 20px;
 	padding-top: 20px;
 	text-decoration: none;}
-	
+
+.TextMain{color: #777777;
+	font-size: 18px;
+	margin-top: 20px;}
+
 .TextSection{font-family:'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	margin: 10px;
